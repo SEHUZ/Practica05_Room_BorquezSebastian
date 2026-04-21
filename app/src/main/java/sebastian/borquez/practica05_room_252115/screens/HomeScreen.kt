@@ -90,6 +90,7 @@ fun HomeScreen(
                 Spacer(Modifier.width(8.dp))
                 Text(text = "Capturar", fontSize = 18.sp)
             }
+        }
 
             Button(
                 onClick = onLogout,
@@ -97,4 +98,3 @@ fun HomeScreen(
             ) { Text(text = "Cerrar sesión") }
         }
     }
-}

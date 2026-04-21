@@ -60,5 +60,15 @@ fun LoginScreen(
             modifier = Modifier
                 .fillMaxWidth()
         )
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        Button(
+            onClick = {viewModel.login(user, pass) },
+            modifier = Modifier.fillMaxWidth()
+        ) {
+            Text("Entrar")
+        }
+
     }
 }

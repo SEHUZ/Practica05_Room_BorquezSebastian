@@ -32,17 +32,14 @@ fun AppNavigation(
     val isLoggedIn by authViewModel.isLoggedIn.collectAsState()
     val userName by authViewModel.username.collectAsState()
 
-    LaunchedEffect(
-        isLoggedIn
-
-    ) {
+    LaunchedEffect(isLoggedIn) {
         if (isLoggedIn) {
-            navController.navigate(Screen.Login.route) {
+            navController.navigate(Screen.Home.route) {
                 popUpTo(0) { inclusive = true }
             }
         } else {
-            navController.navigate(Screen.Home.route) {
-                popUpTo(Screen.Login.route) { inclusive = true }
+            navController.navigate(Screen.Login.route) {
+                popUpTo(0) { inclusive = true }
             }
         }
     }

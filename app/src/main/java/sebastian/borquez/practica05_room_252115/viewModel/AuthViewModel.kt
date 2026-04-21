@@ -20,7 +20,6 @@ class AuthViewModel(private val dataStore: DataStoreManager) : ViewModel() {
         SharingStarted.WhileSubscribed(5000),
         ""
     )
-
     fun login(user: String, pass: String) {
         if (user == "admin" && pass == "1234") {
             viewModelScope.launch {
