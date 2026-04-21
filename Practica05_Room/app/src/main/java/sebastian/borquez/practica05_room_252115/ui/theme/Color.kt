@@ -1,4 +1,4 @@
-package sebastian.borquez.practia05_room_252115.ui.theme
+package sebastian.borquez.practica05_room_252115.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

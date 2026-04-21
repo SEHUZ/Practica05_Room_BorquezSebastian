@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "sebastian.borquez.practia05_room_252115"
+    namespace = "sebastian.borquez.practica05_room_252115"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1

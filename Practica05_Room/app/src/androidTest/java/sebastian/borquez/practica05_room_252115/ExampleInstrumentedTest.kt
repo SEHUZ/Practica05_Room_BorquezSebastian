@@ -1,4 +1,4 @@
-package sebastian.borquez.practia05_room_252115
+package sebastian.borquez.practica05_room_252115
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

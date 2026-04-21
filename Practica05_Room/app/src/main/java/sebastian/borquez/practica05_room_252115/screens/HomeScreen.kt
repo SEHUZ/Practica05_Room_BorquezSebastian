@@ -1,6 +1,5 @@
-package sebastian.borquez.practia05_room_252115.screens
+package sebastian.borquez.practica05_room_252115.screens
 
-import android.R.attr.onClick
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row

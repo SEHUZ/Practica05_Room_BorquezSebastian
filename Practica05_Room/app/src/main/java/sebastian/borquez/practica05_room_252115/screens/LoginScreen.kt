@@ -1,4 +1,4 @@
-package sebastian.borquez.practia05_room_252115.screens
+package sebastian.borquez.practica05_room_252115.screens
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -21,8 +21,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import sebastian.borquez.practia05_room_252115.data.DataStoreManager
-import sebastian.borquez.practia05_room_252115.viewModel.AuthViewModel
+import sebastian.borquez.practica05_room_252115.data.DataStoreManager
+import sebastian.borquez.practica05_room_252115.viewModel.AuthViewModel
 
 @Composable
 fun LoginScreen(

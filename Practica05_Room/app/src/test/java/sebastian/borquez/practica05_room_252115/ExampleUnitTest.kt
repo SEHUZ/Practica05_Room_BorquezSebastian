@@ -1,4 +1,4 @@
-package sebastian.borquez.practia05_room_252115
+package sebastian.borquez.practica05_room_252115
 
 import org.junit.Test
 

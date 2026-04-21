@@ -1,4 +1,4 @@
-package sebastian.borquez.practia05_room_252115.data
+package sebastian.borquez.practica05_room_252115.data
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

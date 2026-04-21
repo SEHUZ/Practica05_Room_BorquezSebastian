@@ -1,4 +1,4 @@
-package sebastian.borquez.practia05_room_252115.viewModel
+package sebastian.borquez.practica05_room_252115.viewModel
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -9,8 +9,8 @@ import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
-import sebastian.borquez.practia05_room_252115.data.PokemonEntity
-import sebastian.borquez.practia05_room_252115.data.PokemonRepository
+import sebastian.borquez.practica05_room_252115.data.PokemonEntity
+import sebastian.borquez.practica05_room_252115.data.PokemonRepository
 
 class PokemonViewModel(private val repository: PokemonRepository): ViewModel() {
 

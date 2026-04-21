@@ -1,6 +1,5 @@
-package sebastian.borquez.practia05_room_252115.ui.theme
+package sebastian.borquez.practica05_room_252115.ui.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

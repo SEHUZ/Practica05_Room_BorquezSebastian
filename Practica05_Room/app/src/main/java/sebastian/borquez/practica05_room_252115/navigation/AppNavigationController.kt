@@ -1,19 +1,18 @@
-package sebastian.borquez.practia05_room_252115.navigation
+package sebastian.borquez.practica05_room_252115.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.remember
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import sebastian.borquez.practia05_room_252115.screens.BolsaScreen
-import sebastian.borquez.practia05_room_252115.screens.CapturarScreen
-import sebastian.borquez.practia05_room_252115.screens.HomeScreen
-import sebastian.borquez.practia05_room_252115.screens.LoginScreen
-import sebastian.borquez.practia05_room_252115.viewModel.AuthViewModel
-import sebastian.borquez.practia05_room_252115.viewModel.PokemonViewModel
+import sebastian.borquez.practica05_room_252115.screens.BolsaScreen
+import sebastian.borquez.practica05_room_252115.screens.CapturarScreen
+import sebastian.borquez.practica05_room_252115.screens.HomeScreen
+import sebastian.borquez.practica05_room_252115.screens.LoginScreen
+import sebastian.borquez.practica05_room_252115.viewModel.AuthViewModel
+import sebastian.borquez.practica05_room_252115.viewModel.PokemonViewModel
 
 
 sealed class Screen (val route: String) {

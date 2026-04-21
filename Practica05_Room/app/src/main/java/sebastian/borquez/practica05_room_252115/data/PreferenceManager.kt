@@ -1,4 +1,4 @@
-package sebastian.borquez.practia05_room_252115.data
+package sebastian.borquez.practica05_room_252115.data
 
 import android.content.Context
 import androidx.core.content.edit

@@ -1,11 +1,11 @@
-package sebastian.borquez.practia05_room_252115.viewModel
+package sebastian.borquez.practica05_room_252115.viewModel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
-import sebastian.borquez.practia05_room_252115.data.DataStoreManager
+import sebastian.borquez.practica05_room_252115.data.DataStoreManager
 
 class AuthViewModel(private val dataStore: DataStoreManager) : ViewModel() {
 
