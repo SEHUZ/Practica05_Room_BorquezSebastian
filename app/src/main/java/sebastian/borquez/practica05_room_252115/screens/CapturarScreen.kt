@@ -77,14 +77,5 @@ fun CapturarScreen(pokemonViewModel: PokemonViewModel, onBack: () -> Unit) {
         {
             Text("Mandar a la bolsa")
         }
-        TextButton(
-            onClick = {
-                pokemonViewModel.releaseCapturedPokemons()
-            }
-        )
-        {
-            Text("Liberar pokemones")
-        }
-
     }
 }
